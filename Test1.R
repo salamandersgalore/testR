@@ -46,6 +46,6 @@ HIplot<-plot_usmap(include = "Utah", regions = "counties", data = census, values
   scale_fill_continuous(low = "white", high = "blue", name = "Estimated Median Household Income 2020")+
   theme(legend.position = "right") 
 
-grid.arrange(povplot, HIplot, nrow = 1) #Map size is different?
+grid.arrange(povplot, HIplot, nrow = 1) #Map size is different
 ```
 
